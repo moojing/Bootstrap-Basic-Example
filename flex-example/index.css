@@ -1,0 +1,18 @@
+.box-flex{
+    display: flex;
+    width: 500px;
+}
+
+
+.box{
+    flex:1;
+    width: 200px;
+    height: 200px; 
+    border:1px solid red;
+}
+.box-one{
+    flex-basis:200px;
+}
+.box-two{
+    flex-basis:400px;
+} 
