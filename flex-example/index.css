@@ -1,18 +1,22 @@
 .box-flex{
     display: flex;
-    width: 500px;
+    width: 600px;
 }
 
 
 .box{
-    flex:1;
+    /* flex:1; */
+    /* padding:10px; */
     width: 200px;
     height: 200px; 
-    border:1px solid red;
+    border:1px solid black;
 }
 .box-one{
-    flex-basis:200px;
+    flex-grow:2;
 }
 .box-two{
-    flex-basis:400px;
+    flex-grow:1;
+} 
+.box-three{
+    flex-grow:1;
 } 
