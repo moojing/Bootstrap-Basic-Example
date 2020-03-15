@@ -8,15 +8,19 @@
     /* flex:1; */
     /* padding:10px; */
     width: 200px;
-    height: 200px; 
+    height: 200px;
     border:1px solid black;
 }
 .box-one{
-    flex-grow:2;
+    flex-grow:1;
+    flex-shrink: 1;
 }
 .box-two{
     flex-grow:1;
+    flex-shrink: 1;
+    
 } 
 .box-three{
     flex-grow:1;
+    flex-shrink: 1;
 } 
